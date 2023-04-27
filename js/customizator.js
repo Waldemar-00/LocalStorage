@@ -130,6 +130,5 @@ export default class Customizator {
     topPanel.classList.add('panel')
     topPanel.append(this.buttonsBlock, this.colorPicker, this.cross)
     document.querySelector('body').append(topPanel)
-    console.log(topPanel)
   }
 }
